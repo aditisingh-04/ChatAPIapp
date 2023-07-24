@@ -1,0 +1,9 @@
+Docker Login Command: (Get-ECRLoginCommand).Password | docker login --username AWS --password-stdin 124533668512.dkr.ecr.us-east-1.amazonaws.com
+Docker Build Command: docker build -t homework-08 .
+Docker Push Command: docker push 124533668512.dkr.ecr.us-east-1.amazonaws.com/homework-08:latest
+Image URI: 124533668512.dkr.ecr.us-east-1.amazonaws.com/homework-08:latest
+TLS Cert ARN: arn:aws:acm:us-east-1:124533668512:certificate/06c4212e-2eef-4472-853d-c1969fe15a98
+LabRole ARN: arn:aws:iam::124533668512:role/LabRole
+VPC ID: vpc-050cd349a26da01be
+Subnet IDs: subnet-0422e2ef5b27f9fda,subnet-0cf391dc6d68ee9ef
+LoadBalancerDNSName: aditi-LoadB-1POL9SMC5FO3U-1623659893.us-east-1.elb.amazonaws.com

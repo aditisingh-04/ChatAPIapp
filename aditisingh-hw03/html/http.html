@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Homework 3</title>
+    </head>
+    <body>
+        <h2>CSC 346 Homework 3 HTTP Example</h2>
+        <p>
+            <pre>
+                / # nc -v www2.cs.arizona.edu 80
+                www2.cs.arizona.edu (192.12.69.4:80) open
+                GET /classes/cs346/fall22/index.html HTTP/1.1
+                host: www2.cs.arizona.edu
+
+                HTTP/1.1 200 OK
+                Date: Tue, 20 Sep 2022 01:19:16 GMT
+                Server: Apache
+                Accept-Ranges: bytes
+                Vary: Accept-Encoding
+                Content-Length: 10615
+                Content-Type: text/html; charset=UTF-8
+            </pre>
+        </p>
+        <p><a href="index.html">Home</a></p>
+    </body>
+</html>
